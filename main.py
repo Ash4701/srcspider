@@ -9,7 +9,7 @@ from datetime import datetime
 from requests.packages.urllib3.exceptions import InsecureRequestWarning
 import requests
 import init
-
+#
 
 cid_filename = datetime.now().date().strftime('%Y%m%d')+'_cid.txt'
 web_filename = datetime.now().date().strftime('%Y%m%d')+'_web.txt'
